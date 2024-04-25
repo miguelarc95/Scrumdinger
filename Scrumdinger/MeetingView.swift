@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Scrumdinger
 //
-//  Created by itsector on 25/04/2024.
+//  Created by Miguel Cardoso on 25/04/2024.
 //
 
 import SwiftUI
