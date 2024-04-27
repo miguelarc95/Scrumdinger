@@ -19,6 +19,7 @@
 		2D74867E2BDBC8D70060C394 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D74867D2BDBC8D70060C394 /* DetailView.swift */; };
 		2D7486802BDD15590060C394 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D74867F2BDD15590060C394 /* DetailEditView.swift */; };
 		2D7486822BDD25060060C394 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7486812BDD25060060C394 /* ThemeView.swift */; };
+		2D7486842BDD29990060C394 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7486832BDD29990060C394 /* ThemePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		2D74867D2BDBC8D70060C394 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		2D74867F2BDD15590060C394 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 		2D7486812BDD25060060C394 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
+		2D7486832BDD29990060C394 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				2D74867D2BDBC8D70060C394 /* DetailView.swift */,
 				2D74867F2BDD15590060C394 /* DetailEditView.swift */,
 				2D7486812BDD25060060C394 /* ThemeView.swift */,
+				2D7486832BDD29990060C394 /* ThemePicker.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D7486842BDD29990060C394 /* ThemePicker.swift in Sources */,
 				2D74866F2BDB27FA0060C394 /* DailyScrum.swift in Sources */,
 				2D74867E2BDBC8D70060C394 /* DetailView.swift in Sources */,
 				2D7486802BDD15590060C394 /* DetailEditView.swift in Sources */,
