@@ -27,6 +27,7 @@
 		2DAF78A32BE27A03003DD17E /* EditScrumSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF78A22BE27A03003DD17E /* EditScrumSheet.swift */; };
 		2DAF78AD2BE2917D003DD17E /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF78AB2BE2917D003DD17E /* AVPlayer+Ding.swift */; };
 		2DAF78AE2BE2917D003DD17E /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF78AC2BE2917D003DD17E /* ScrumTimer.swift */; };
+		2DAF78B02BE29289003DD17E /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF78AF2BE29289003DD17E /* History.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		2DAF78A22BE27A03003DD17E /* EditScrumSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditScrumSheet.swift; sourceTree = "<group>"; };
 		2DAF78AB2BE2917D003DD17E /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
 		2DAF78AC2BE2917D003DD17E /* ScrumTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
+		2DAF78AF2BE29289003DD17E /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,9 +108,11 @@
 		2D7486642BDB1F4E0060C394 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2D74866C2BDB269B0060C394 /* Theme.swift */,
 				2DAF78AB2BE2917D003DD17E /* AVPlayer+Ding.swift */,
 				2DAF78AC2BE2917D003DD17E /* ScrumTimer.swift */,
 				2D74866E2BDB27FA0060C394 /* DailyScrum.swift */,
+				2DAF78AF2BE29289003DD17E /* History.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -136,7 +140,6 @@
 			children = (
 				2D7486722BDB35E10060C394 /* TrailingIconLabelStyle.swift */,
 				2D7486902BDE8B6E0060C394 /* ScrumProgressViewStyle.swift */,
-				2D74866C2BDB269B0060C394 /* Theme.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 			files = (
 				2D7486842BDD29990060C394 /* ThemePicker.swift in Sources */,
 				2D74866F2BDB27FA0060C394 /* DailyScrum.swift in Sources */,
+				2DAF78B02BE29289003DD17E /* History.swift in Sources */,
 				2D74867E2BDBC8D70060C394 /* DetailView.swift in Sources */,
 				2D7486802BDD15590060C394 /* DetailEditView.swift in Sources */,
 				2D74867B2BDBC1B50060C394 /* ScrumsView.swift in Sources */,
